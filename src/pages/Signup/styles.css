@@ -1,0 +1,24 @@
+#cadastro {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#cadastroBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: #f8f8fc;
+    border: 1px solid #030244;
+    box-shadow: 0px 5px 4px rgba(14, 3, 163, 0.25);
+    border-radius: 50px;
+    margin: 20px 10px;
+    padding: 20px;
+  }
+  
+#cadastroBox span {
+    font-weight: bold;
+    font-size: 35px;
+  }

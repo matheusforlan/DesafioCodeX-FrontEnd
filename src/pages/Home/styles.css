@@ -1,0 +1,37 @@
+.container{
+    /** muda coor do fundo do componente **/
+    background-color: rgb(43, 115, 223);
+    color: white;
+    /** largura que o componente vai ocupar (Nesse caso usa % para ocupar 80%
+    da tela mesmo se diminuir a tela de tamanho).*/
+    width: 100%;
+
+    /** espaçamento fora do conteúdo */
+    margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	/* Mesma coisa que acima */
+	margin: auto;
+
+    /** espaçamento dentro do conteúdo*/
+    padding-top: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 60px;
+	/* Mesma coisa que acima */
+	padding: 60px;
+
+    /** borda do conteúdo 
+    border-top: 15px solid red;
+	border-left: 15px solid red;
+	border-right: 15px solid red;
+	border-bottom: 15px solid red;
+	/* Mesma coisa que acima 
+	border: 15px solid rgb(255, 0, 0); */
+
+}
+
+#title{
+    color: purple;
+}
